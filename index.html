@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resutl Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Roboto+Slab:wght@100;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <nav class="logo">
+       <img id = "image" src="logo.png">
+       <p id="head"> Bihar School Examination Board, Patna</p>
+   </nav> 
+   <div class="container">
+       <div class="form">
+           <form action="#">
+            <p id="heading">INTERMEDIATE ANNUAL EXAMINATION RESULT</p>
+            <hr>
+            <label for="roll" id="roll"></label>
+            Roll Code* 
+            <input type="text"  placeholder="Enter Roll code" id="rol"><br>
+            <label for="no" id="ro"></label>
+            Roll No*
+            <input type="text" placeholder="Enter Roll no" id="no"><br>
+            <label for="total" id="to"></label>
+            <p id="reh">Total no of*</p>
+            <div id="cap"></div>
+           <span id="hello">Enter total of*
+            <input id="total" type="text" placeholder="Enter Captcha" id="offf"><br>
+           <button onclick="valiateCaptcha()" type="submit" id="first">View</button><br>
+           <button type="reset" id="second">Reset</button>
+              </form>
+       </div>
+   </div>
+   <script src="index.js"></script>
+</body>
+</html>
